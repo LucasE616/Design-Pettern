@@ -6,6 +6,7 @@
 
 function fabricarPessoa(nome, sobrenome) {
     let pessoa = {};
+// Interface privada
     pessoa.nome = nome;
     pessoa.sobrenome = sobrenome;
 
@@ -18,5 +19,6 @@ let pessoaB = fabricarPessoa('Lucas', 'Martins');
 console.log(pessoaA);
 console.log(pessoaB);
 
+// Interface pública
 console.log(pessoaA.sobrenome);
 console.log(pessoaB.sobrenome);
