@@ -4,6 +4,8 @@ function createDatabaseConnection() {
         console.log('> [database] Connecting to Postgres...');
         console.log('> [database] Running migrations...');
         console.log('> [database] Starting done!');
+
+        throw new Error('> Connection failed!')
     }
 
     function stop() {
